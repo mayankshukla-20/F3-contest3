@@ -294,15 +294,15 @@ const data = [
     last_updated: "2024-01-27T08:33:22.822Z",
   },
 ];
-async function getData(){
-        const response = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false");
-        const data = await response.json();
-        console.log(data);
+// async function getData(){
+//         const response = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false");
+//         const data = await response.json();
+//         console.log(data);
 
-        return appendElements(data);
+//         return appendElements(data);
 
-    // appendElements(data);
-}
+//     // appendElements(data);
+// }
 // getData();
 appendElements(data);
 function appendElements(data) {
