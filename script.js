@@ -299,9 +299,6 @@ const data = [
 //         const data = await response.json();
 //         console.log(data);
 
-//         return appendElements(data);
-
-//     // appendElements(data);
 // }
 // getData();
 appendElements(data);
