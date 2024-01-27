@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: #1A1A1C;
+}
+nav{
+    padding-top: 30px;
+    width: 80%;
+    margin-inline: auto;
+    align-items: center;
+}
+#search-inp{
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+}
+.btn{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+padding: 15px;
+margin-left: 20px;
+border-radius: 6px;
+}
+table{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+td>img{
+    width: 30px;
+    height: 30px;
+}
+#body>tr>td{
+    padding: 20px;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    gap: 20px;
+}
+.none{
+    display: none;
+}
